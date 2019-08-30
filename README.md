@@ -1,4 +1,8 @@
 # Copy-SpotlightWallpapers
+## Introduction
+   This is my first Powershell script. Microsoft Spotlight wallpapers are temporarily saved in the folder `$env:USERPROFILE\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets` without an extension and with other images which I don't bother about (e.g. icons, vertical wallpapers, ...). This script copies only the valid wallpapers to another folder, renaming them with `.jpg` extension. The destination path is a folder named `spotlight wallpapers` located in desktop or can be specified by the user.
+
+## Description
    Copies Microsoft Spotlight wallpapers to another folder.
 
    This script will look for Microsoft Spotlight wallpapers and copy them to another folder.
