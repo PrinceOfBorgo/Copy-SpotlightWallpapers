@@ -12,7 +12,7 @@
 ## Examples
 -  `C:\PS> .\Copy-Spotlight-Wallpapers.ps1`
 
-Starts copying Spotlight wallpapers to Desktop.
+Starts copying Spotlight wallpapers to a folder named `spotlight wallpapers` located in desktop.
 
 -  `C:\PS> .\Copy-Spotlight-Wallpapers.ps1 -DestinationPath C:\Wallpapers`
 
