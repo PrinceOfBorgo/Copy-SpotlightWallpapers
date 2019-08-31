@@ -28,5 +28,5 @@ Starts copying Spotlight wallpapers to the specified destination path `C:\Wallpa
  
 -  `C:\PS> .\Copy-Spotlight-Wallpapers.ps1 "$env:USERPROFILE\Pictures\Wallpapers"`
 
-Starts copying Spotlight wallpapers to the specified destination path without specifieng `-DestinationPath`.
+Starts copying Spotlight wallpapers to the specified destination path using implicitly the parameter name `-DestinationPath`.
 The path is given using environment variable `$env:USERPROFILE` which is the path of current user.
