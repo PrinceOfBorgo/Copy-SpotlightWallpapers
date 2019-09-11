@@ -114,7 +114,7 @@ Write-Host
 
 if ($copied -eq 0) {
     Write-Host "Press any key to exit: " -NoNewLine
-	$host.UI.RawUI.ReadKey("NoEcho, IncludeKeyDown")
+    $host.UI.RawUI.ReadKey("NoEcho, IncludeKeyDown") | Out-Null
 }
 else {
     Write-Host "Do you want to view the copied images? (y/N): " -NoNewLine
